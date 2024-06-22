@@ -13,4 +13,5 @@ The art used in this repository is available online, [get assets](https://www.yo
 ## Resources
 I would like to shared some awesome tutorials on YouTube that inspired me to start on the game dev path.
 
-https://www.youtube.com/@Brackeys
+> Godot Engine and more:
+> <br>https://www.youtube.com/@Brackeys
