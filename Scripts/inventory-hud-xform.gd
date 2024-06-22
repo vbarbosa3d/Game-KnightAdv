@@ -1,7 +1,6 @@
 extends Control
 
 @onready var camera = %Camera2D
-@onready var inventory = %Inventory
 
 var initPos:Vector2
 
@@ -16,12 +15,6 @@ func _process(_delta):
 	var globalPos:Vector2 = Vector2(globalPosX, globalPosY)
 	
 	global_position = globalPos
-	
-func _on_backpack_button_pressed():
-	inventory.show()
-
-	if not get_tree().paused:
-		get_tree().paused = 1
 
 
 
