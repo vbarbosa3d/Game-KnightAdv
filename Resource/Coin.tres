@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://kus0c8mrqxgx"]
+
+[ext_resource type="PackedScene" uid="uid://ckjdfbyqmard" path="res://Scenes/coin.tscn" id="1_g86rp"]
+[ext_resource type="Script" path="res://Model/Item.gd" id="1_nxjse"]
+[ext_resource type="Texture2D" uid="uid://bg21cfy3pjrhl" path="res://Assets/images/coin-icon.png" id="1_odvwt"]
+
+[resource]
+script = ExtResource("1_nxjse")
+name = "Coin"
+scene = ExtResource("1_g86rp")
+icon = ExtResource("1_odvwt")

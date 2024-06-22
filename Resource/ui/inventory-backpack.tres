@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HudItem" load_steps=3 format=3 uid="uid://bb0tnb0a8dekb"]
+
+[ext_resource type="PackedScene" uid="uid://dexsea8l3r4ty" path="res://Scenes/inventory_btn.tscn" id="1_5i4um"]
+[ext_resource type="Script" path="res://Model/hudItem.gd" id="2_mnf3y"]
+
+[resource]
+script = ExtResource("2_mnf3y")
+name = "backpack"
+scene = ExtResource("1_5i4um")

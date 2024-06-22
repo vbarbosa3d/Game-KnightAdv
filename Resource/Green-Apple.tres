@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://ck2b5dlq0f5px"]
+
+[ext_resource type="Texture2D" uid="uid://bagu1pogr74ju" path="res://Assets/images/green-apple-icon.png" id="1_dmqw3"]
+[ext_resource type="PackedScene" uid="uid://dlmcrriuj1ic4" path="res://Scenes/green-apple.tscn" id="2_nauu8"]
+[ext_resource type="Script" path="res://Model/Item.gd" id="3_fa77t"]
+
+[resource]
+script = ExtResource("3_fa77t")
+name = "GreenApple"
+scene = ExtResource("2_nauu8")
+icon = ExtResource("1_dmqw3")

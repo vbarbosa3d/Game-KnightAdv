@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dravthlk0o2wy"]
+
+[ext_resource type="Script" path="res://Scripts/Item.gd" id="1_w7k46"]
+[ext_resource type="Resource" uid="uid://kus0c8mrqxgx" path="res://Resource/Coin.tres" id="2_533a6"]
+
+[node name="itemPickup" type="Node2D"]
+position = Vector2(46, 3)
+script = ExtResource("1_w7k46")
+item = ExtResource("2_533a6")
